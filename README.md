@@ -30,14 +30,14 @@
 </p>
 
 <p align="center">
+  &nbsp;
   <img
-    align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=liamriley101&" alt="Liamriley101"
+    align="center" src="https://github-readme-stats.vercel.app/api?username=liamriley101&show_icons=true&locale=en" alt="Liamriley101"
   />
 </p>
 
 <p align="center">
-  &nbsp;
   <img
-    align="center" src="https://github-readme-stats.vercel.app/api?username=liamriley101&show_icons=true&locale=en" alt="Liamriley101"
+    align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=liamriley101&" alt="Liamriley101"
   />
 </p>
