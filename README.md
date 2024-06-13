@@ -7,12 +7,6 @@
 
 <div align="center">
   <img
-    src="https://soundcloud.com/mxgazine/lost?si=daf804882dbe40eba5784f600dcd1998&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" alt="Liamriley101"
-  />
-</div>
-
-<div align="center">
-  <img
     src="https://github.com/Liamriley101/Liamriley101/blob/master/Transparent%20Coffin.png" alt="Liamriley101"
   />
 </div>
