@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typewriter Effect</title>
+  <style>
+    #typewriter {
+      font-family: monospace;
+      white-space: pre;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      animation: caret 0.75s step-end infinite;
+    }
+
+    @keyframes caret {
+      from, to { border-color: transparent; }
+      50% { border-color: orange; }
+    }
+  </style>
+</head>
+<body>
+  <div id="typewriter"></div>
+
+  <script>
+    const messages = [
+      "hello",
+    ];
+
+    function RandomInteger(v, N) {
+      v = Math.ceil(v);
+      N = Math.floor(N);
+      return Math.floor(Math.random() * (N - v) + v);
+    }
+
+    function Writer() {
+      var N = RandomInteger(0, messages.length);
+      var O = new Typewriter('#typewriter', { loop: true });
+      O.typeString('$ ' + messages[N] + ' $')
+       .pauseFor(3750)
+       .deleteAll()
+       .pauseFor(75)
+       .callFunction(() => {
+         O.stop();
+         Writer();
+       })
+       .start();
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+      Writer();
+    });
+
+    class Typewriter {
+      constructor(selector, options) {
+        this.selector = document.querySelector(selector);
+        this.loop = options.loop;
+        this.queue = [];
+        this.typing = false;
+      }
+
+      typeString(string) {
+        this.queue.push(() => this._typeString(string));
+        if (!this.typing) this._next();
+        return this;
+      }
+
+      pauseFor(ms) {
+        this.queue.push(() => this._pauseFor(ms));
+        if (!this.typing) this._next();
+        return this;
+      }
+
+      deleteAll() {
+        this.queue.push(() => this._deleteAll());
+        if (!this.typing) this._next();
+        return this;
+      }
+
+      callFunction(fn) {
+        this.queue.push(() => this._callFunction(fn));
+        if (!this.typing) this._next();
+        return this;
+      }
+
+      start() {
+        if (!this.typing) this._next();
+        return this;
+      }
+
+      _next() {
+        if (this.queue.length === 0) {
+          if (this.loop) this.queue = [...this.originalQueue];
+          else return;
+        }
+        this.typing = true;
+        const fn = this.queue.shift();
+        fn();
+      }
+
+      _typeString(string) {
+        let i = 0;
+        const interval = setInterval(() => {
+          this.selector.textContent += string[i];
+          i++;
+          if (i >= string.length) {
+            clearInterval(interval);
+            this._next();
+          }
+        }, 100);
+      }
+
+      _pauseFor(ms) {
+        setTimeout(() => {
+          this._next();
+        }, ms);
+      }
+
+      _deleteAll() {
+        const interval = setInterval(() => {
+          this.selector.textContent = this.selector.textContent.slice(0, -1);
+          if (this.selector.textContent.length === 0) {
+            clearInterval(interval);
+            this._next();
+          }
+        }, 50);
+      }
+
+      _callFunction(fn) {
+        fn();
+        this._next();
+      }
+    }
+  </script>
+</body>
+</html>
