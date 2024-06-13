@@ -6,11 +6,15 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/Liamriley101/Liamriley101/blob/master/Transparent%20Coffin.png" alt="Liamriley101" />
+  <img
+    src="https://github.com/Liamriley101/Liamriley101/blob/master/Transparent%20Coffin.png" alt="Liamriley101"
+  />
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=liamriley101&label=Profile%20views&color=0e75b6&style=flat" alt="Liamriley101" />
+  <img
+    src="https://komarev.com/ghpvc/?username=liamriley101&label=Profile%20views&color=0e75b6&style=flat" alt="Liamriley101"
+  />
 </p>
 
 <p align="center">
@@ -20,13 +24,20 @@
 </p>
 
 <p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=liamriley101&show_icons=true&locale=en&layout=compact" alt="Liamriley101" />
+  <img
+    align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=liamriley101&show_icons=true&locale=en&layout=compact" alt="Liamriley101"
+  />
 </p>
 
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=liamriley101&" alt="Liamriley101" />
+  <img
+    align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=liamriley101&" alt="Liamriley101"
+  />
 </p>
 
 <p align="center">
-  &nbsp; <img align="center" src="https://github-readme-stats.vercel.app/api?username=liamriley101&show_icons=true&locale=en" alt="Liamriley101" />
+  &nbsp;
+  <img
+    align="center" src="https://github-readme-stats.vercel.app/api?username=liamriley101&show_icons=true&locale=en" alt="Liamriley101"
+  />
 </p>
