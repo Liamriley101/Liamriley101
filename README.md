@@ -3,8 +3,6 @@
 
 <div align="center">
   - I Know Lua, C#, Javascript Mainly And Slowly Moving Towards Other Languages -
-
-  - Big Exploiter -
 </div>
 
 <div align="center">
