@@ -13,31 +13,6 @@
 
 <p align="center">
   <img
-    src="https://komarev.com/ghpvc/?username=liamriley101&label=Profile%20views&color=0e75b6&style=flat" alt="Liamriley101"
-  />
-</p>
-
-<p align="center">
-  <a
-    href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=snoofz" alt="Liamriley101" />
-  </a>
-</p>
-
-<p align="center">
-  <img
-    align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=liamriley101&show_icons=true&locale=en&layout=compact" alt="Liamriley101"
-  />
-</p>
-
-<p align="center">
-  &nbsp;
-  <img
-    align="center" src="https://github-readme-stats.vercel.app/api?username=liamriley101&show_icons=true&locale=en" alt="Liamriley101"
-  />
-</p>
-
-<p align="center">
-  <img
-    align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=liamriley101&" alt="Liamriley101"
+    src="https://visitcount.itsvg.in/api?id=Liamriley101&icon=5&color=11" alt="Liamriley101"
   />
 </p>
