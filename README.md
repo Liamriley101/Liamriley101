@@ -7,12 +7,18 @@
 
 <div align="center">
   <img
-    src="https://github.com/Liamriley101/Liamriley101/blob/master/Transparent%20Coffin.png" alt="Liamriley101"
+    src="https://github.com/Liamriley101/Liamriley101/blob/master/Transparent%20Coffin.png"
   />
 </div>
 
 <p align="center">
   <img
-    src="https://visitcount.itsvg.in/api?id=Liamriley101&icon=5&color=11" alt="Liamriley101"
+    src="[https://visitcount.itsvg.in/api?id=Liamriley101&icon=5&color=11](https://visitcount.itsvg.in)"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="[https://github-profile-trophy.vercel.app/?username=Liamriley101&theme=transparent&no-frame=true&no-bg=true&margin-w=4)"
   />
 </p>
