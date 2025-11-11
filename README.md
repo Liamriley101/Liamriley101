@@ -1,7 +1,8 @@
 <h1 align="center">Hello, I'm Liamriley101</h1>
 
 <div align="center">
-  - Languages: Lua, C#, Javascript And Slowly Moving Towards Other Languages -\n
+  - Languages: Lua, C#, Javascript And Slowly Moving Towards Other Languages -
+  <br>
   - Engines: Unity -
 </div>
 
